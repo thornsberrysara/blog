@@ -1,4 +1,4 @@
-defmodule Blog.User do
+defmodule Blog.Users.User do
   use Ecto.Schema
   import Ecto.Changeset
 
