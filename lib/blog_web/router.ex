@@ -19,6 +19,9 @@ defmodule BlogWeb.Router do
 
     get "/", PageController, :index
     get "/users", UserController, :index
+    get "/users/new", UserController, :new
+    post "/users/create", UserController, :create
+    get "/users/:id", UserController, :show
   end
 
   # Other scopes may use custom stacks.
